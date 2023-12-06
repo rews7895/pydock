@@ -2,7 +2,7 @@ version: '3'
 services:
   workspace:
     build:
-      context: workspace
+      context: ./workspace
       args:
         - TZ=${TZ}
     ports:
